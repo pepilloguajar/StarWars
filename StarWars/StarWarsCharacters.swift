@@ -66,12 +66,43 @@ class StarWarsCharacter {
                      url: URL){
         self.init(firstName: nil, lastName: nil, alias: alias, sound: soundData, photo: photo,wikiURL: url, affiliation: affiliation)
         
-        
     }
     
     
-    
-    
+    //MARK: - Proxies
+    func proxyForEquality() -> String {
+        return "\(firstName)\(lastName)\(alias)\(url)\(affiliation)\(photo.hashValue)\(soundData.hashValue)"
+    }
     
     
 }
+
+
+
+extension StarWarsCharacter : Equatable{
+    
+    public static func ==(lhs: StarWarsCharacter,
+                          rhs: StarWarsCharacter) -> Bool{
+        
+        return (lhs.proxyForEquality() == rhs.proxyForEquality())
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

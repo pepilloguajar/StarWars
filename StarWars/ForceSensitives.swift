@@ -43,6 +43,21 @@ class ForceSensitive: StarWarsCharacter {
         
     }
     
+    convenience init(sithWithFirstName: String?,
+                     lastName: String?,
+                     alias: String,
+                     soundData: Data,
+                     photo: UIImage,
+                     url: URL,
+                     midichlorians: Int) {
+        
+        self.init(firstName: sithWithFirstName, lastName: lastName,
+                  alias: alias, sound: soundData,
+                  photo: photo, wikiURL: url,
+                  affiliation: .galacticEmpire, midichlorians: midichlorians)
+        
+    }
+    
     
     
     
