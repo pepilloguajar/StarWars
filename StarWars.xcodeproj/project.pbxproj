@@ -12,6 +12,9 @@
 		92C0C6521E2EA9E800AD86C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6501E2EA9E800AD86C7 /* Main.storyboard */; };
 		92C0C6541E2EA9E800AD86C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6531E2EA9E800AD86C7 /* Assets.xcassets */; };
 		92C0C6571E2EA9E800AD86C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6551E2EA9E800AD86C7 /* LaunchScreen.storyboard */; };
+		92C0C6631E2EB15900AD86C7 /* StarWarsCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6621E2EB15900AD86C7 /* StarWarsCharacters.swift */; };
+		92C0C6651E2EC54200AD86C7 /* ForceSensitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6641E2EC54200AD86C7 /* ForceSensitives.swift */; };
+		92C0C6671E2EC91200AD86C7 /* StarWarsAffiliation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6661E2EC91200AD86C7 /* StarWarsAffiliation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		92C0C6531E2EA9E800AD86C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92C0C6561E2EA9E800AD86C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92C0C6581E2EA9E800AD86C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C0C6621E2EB15900AD86C7 /* StarWarsCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsCharacters.swift; sourceTree = "<group>"; };
+		92C0C6641E2EC54200AD86C7 /* ForceSensitives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceSensitives.swift; sourceTree = "<group>"; };
+		92C0C6661E2EC91200AD86C7 /* StarWarsAffiliation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsAffiliation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,16 @@
 		92C0C64B1E2EA9E800AD86C7 /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
+				92C0C65F1E2EAB8C00AD86C7 /* Frameworks */,
+				92C0C65E1E2EAB8000AD86C7 /* App */,
+			);
+			path = StarWars;
+			sourceTree = "<group>";
+		};
+		92C0C65E1E2EAB8000AD86C7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92C0C6611E2EABCD00AD86C7 /* Models */,
 				92C0C64C1E2EA9E800AD86C7 /* AppDelegate.swift */,
 				92C0C64E1E2EA9E800AD86C7 /* ViewController.swift */,
 				92C0C6501E2EA9E800AD86C7 /* Main.storyboard */,
@@ -61,7 +77,24 @@
 				92C0C6551E2EA9E800AD86C7 /* LaunchScreen.storyboard */,
 				92C0C6581E2EA9E800AD86C7 /* Info.plist */,
 			);
-			path = StarWars;
+			name = App;
+			sourceTree = "<group>";
+		};
+		92C0C65F1E2EAB8C00AD86C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92C0C6611E2EABCD00AD86C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92C0C6621E2EB15900AD86C7 /* StarWarsCharacters.swift */,
+				92C0C6641E2EC54200AD86C7 /* ForceSensitives.swift */,
+				92C0C6661E2EC91200AD86C7 /* StarWarsAffiliation.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C0C6651E2EC54200AD86C7 /* ForceSensitives.swift in Sources */,
+				92C0C6671E2EC91200AD86C7 /* StarWarsAffiliation.swift in Sources */,
 				92C0C64F1E2EA9E800AD86C7 /* ViewController.swift in Sources */,
 				92C0C64D1E2EA9E800AD86C7 /* AppDelegate.swift in Sources */,
+				92C0C6631E2EB15900AD86C7 /* StarWarsCharacters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
