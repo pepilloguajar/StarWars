@@ -104,6 +104,16 @@ extension StarWarsCharacter : Comparable{
 }
 
 
+extension StarWarsCharacter : CustomStringConvertible{
+    
+    public var description: String {
+        get{
+            return "<\(type(of:self)): \(name) -- \(alias)>"
+        }
+    }
+    
+}
+
 
 
 
