@@ -15,6 +15,36 @@
 		92C0C6631E2EB15900AD86C7 /* StarWarsCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6621E2EB15900AD86C7 /* StarWarsCharacters.swift */; };
 		92C0C6651E2EC54200AD86C7 /* ForceSensitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6641E2EC54200AD86C7 /* ForceSensitives.swift */; };
 		92C0C6671E2EC91200AD86C7 /* StarWarsAffiliation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6661E2EC91200AD86C7 /* StarWarsAffiliation.swift */; };
+		92C0C66B1E2EDC6F00AD86C7 /* forceSensitives.json in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C66A1E2EDC6F00AD86C7 /* forceSensitives.json */; };
+		92C0C66D1E2EDC7B00AD86C7 /* regularCharacters.json in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C66C1E2EDC7B00AD86C7 /* regularCharacters.json */; };
+		92C0C68A1E2EDC8E00AD86C7 /* c3po.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C66E1E2EDC8E00AD86C7 /* c3po.caf */; };
+		92C0C68B1E2EDC8E00AD86C7 /* c3po.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C66F1E2EDC8E00AD86C7 /* c3po.jpg */; };
+		92C0C68C1E2EDC8E00AD86C7 /* chewie.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6701E2EDC8E00AD86C7 /* chewie.caf */; };
+		92C0C68D1E2EDC8E00AD86C7 /* chewie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6711E2EDC8E00AD86C7 /* chewie.jpg */; };
+		92C0C68E1E2EDC8E00AD86C7 /* greedo.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6721E2EDC8E00AD86C7 /* greedo.caf */; };
+		92C0C68F1E2EDC8E00AD86C7 /* greedo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6731E2EDC8E00AD86C7 /* greedo.jpg */; };
+		92C0C6901E2EDC8E00AD86C7 /* jabba.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6741E2EDC8E00AD86C7 /* jabba.caf */; };
+		92C0C6911E2EDC8E00AD86C7 /* jabba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6751E2EDC8E00AD86C7 /* jabba.jpg */; };
+		92C0C6921E2EDC8E00AD86C7 /* kylo.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6761E2EDC8E00AD86C7 /* kylo.caf */; };
+		92C0C6931E2EDC8E00AD86C7 /* kylo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6771E2EDC8E00AD86C7 /* kylo.jpg */; };
+		92C0C6941E2EDC8E00AD86C7 /* leia.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6781E2EDC8E00AD86C7 /* leia.caf */; };
+		92C0C6951E2EDC8E00AD86C7 /* leia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6791E2EDC8E00AD86C7 /* leia.jpg */; };
+		92C0C6961E2EDC8E00AD86C7 /* luke.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C67A1E2EDC8E00AD86C7 /* luke.caf */; };
+		92C0C6971E2EDC8E00AD86C7 /* luke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C67B1E2EDC8E00AD86C7 /* luke.jpg */; };
+		92C0C6981E2EDC8E00AD86C7 /* motti.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C67C1E2EDC8E00AD86C7 /* motti.caf */; };
+		92C0C6991E2EDC8E00AD86C7 /* motti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C67D1E2EDC8E00AD86C7 /* motti.jpg */; };
+		92C0C69A1E2EDC8E00AD86C7 /* obiwan.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C67E1E2EDC8E00AD86C7 /* obiwan.caf */; };
+		92C0C69B1E2EDC8E00AD86C7 /* obiwan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C67F1E2EDC8E00AD86C7 /* obiwan.jpg */; };
+		92C0C69C1E2EDC8E00AD86C7 /* palpatine.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6801E2EDC8E00AD86C7 /* palpatine.caf */; };
+		92C0C69D1E2EDC8E00AD86C7 /* palpatine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6811E2EDC8E00AD86C7 /* palpatine.jpg */; };
+		92C0C69E1E2EDC8E00AD86C7 /* r2-d2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6821E2EDC8E00AD86C7 /* r2-d2.caf */; };
+		92C0C69F1E2EDC8E00AD86C7 /* r2-d2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6831E2EDC8E00AD86C7 /* r2-d2.jpg */; };
+		92C0C6A01E2EDC8E00AD86C7 /* tarkin.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6841E2EDC8E00AD86C7 /* tarkin.caf */; };
+		92C0C6A11E2EDC8E00AD86C7 /* tarkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6851E2EDC8E00AD86C7 /* tarkin.jpg */; };
+		92C0C6A21E2EDC8E00AD86C7 /* vader.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6861E2EDC8E00AD86C7 /* vader.caf */; };
+		92C0C6A31E2EDC8E00AD86C7 /* vader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6871E2EDC8E00AD86C7 /* vader.jpg */; };
+		92C0C6A41E2EDC8E00AD86C7 /* yoda.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6881E2EDC8E00AD86C7 /* yoda.caf */; };
+		92C0C6A51E2EDC8E00AD86C7 /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6891E2EDC8E00AD86C7 /* yoda.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +58,36 @@
 		92C0C6621E2EB15900AD86C7 /* StarWarsCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsCharacters.swift; sourceTree = "<group>"; };
 		92C0C6641E2EC54200AD86C7 /* ForceSensitives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceSensitives.swift; sourceTree = "<group>"; };
 		92C0C6661E2EC91200AD86C7 /* StarWarsAffiliation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsAffiliation.swift; sourceTree = "<group>"; };
+		92C0C66A1E2EDC6F00AD86C7 /* forceSensitives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forceSensitives.json; sourceTree = "<group>"; };
+		92C0C66C1E2EDC7B00AD86C7 /* regularCharacters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = regularCharacters.json; sourceTree = "<group>"; };
+		92C0C66E1E2EDC8E00AD86C7 /* c3po.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c3po.caf; sourceTree = "<group>"; };
+		92C0C66F1E2EDC8E00AD86C7 /* c3po.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c3po.jpg; sourceTree = "<group>"; };
+		92C0C6701E2EDC8E00AD86C7 /* chewie.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chewie.caf; sourceTree = "<group>"; };
+		92C0C6711E2EDC8E00AD86C7 /* chewie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chewie.jpg; sourceTree = "<group>"; };
+		92C0C6721E2EDC8E00AD86C7 /* greedo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = greedo.caf; sourceTree = "<group>"; };
+		92C0C6731E2EDC8E00AD86C7 /* greedo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greedo.jpg; sourceTree = "<group>"; };
+		92C0C6741E2EDC8E00AD86C7 /* jabba.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = jabba.caf; sourceTree = "<group>"; };
+		92C0C6751E2EDC8E00AD86C7 /* jabba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jabba.jpg; sourceTree = "<group>"; };
+		92C0C6761E2EDC8E00AD86C7 /* kylo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kylo.caf; sourceTree = "<group>"; };
+		92C0C6771E2EDC8E00AD86C7 /* kylo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kylo.jpg; sourceTree = "<group>"; };
+		92C0C6781E2EDC8E00AD86C7 /* leia.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = leia.caf; sourceTree = "<group>"; };
+		92C0C6791E2EDC8E00AD86C7 /* leia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leia.jpg; sourceTree = "<group>"; };
+		92C0C67A1E2EDC8E00AD86C7 /* luke.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = luke.caf; sourceTree = "<group>"; };
+		92C0C67B1E2EDC8E00AD86C7 /* luke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luke.jpg; sourceTree = "<group>"; };
+		92C0C67C1E2EDC8E00AD86C7 /* motti.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = motti.caf; sourceTree = "<group>"; };
+		92C0C67D1E2EDC8E00AD86C7 /* motti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = motti.jpg; sourceTree = "<group>"; };
+		92C0C67E1E2EDC8E00AD86C7 /* obiwan.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = obiwan.caf; sourceTree = "<group>"; };
+		92C0C67F1E2EDC8E00AD86C7 /* obiwan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obiwan.jpg; sourceTree = "<group>"; };
+		92C0C6801E2EDC8E00AD86C7 /* palpatine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = palpatine.caf; sourceTree = "<group>"; };
+		92C0C6811E2EDC8E00AD86C7 /* palpatine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palpatine.jpg; sourceTree = "<group>"; };
+		92C0C6821E2EDC8E00AD86C7 /* r2-d2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "r2-d2.caf"; sourceTree = "<group>"; };
+		92C0C6831E2EDC8E00AD86C7 /* r2-d2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "r2-d2.jpg"; sourceTree = "<group>"; };
+		92C0C6841E2EDC8E00AD86C7 /* tarkin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tarkin.caf; sourceTree = "<group>"; };
+		92C0C6851E2EDC8E00AD86C7 /* tarkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tarkin.jpg; sourceTree = "<group>"; };
+		92C0C6861E2EDC8E00AD86C7 /* vader.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vader.caf; sourceTree = "<group>"; };
+		92C0C6871E2EDC8E00AD86C7 /* vader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vader.jpg; sourceTree = "<group>"; };
+		92C0C6881E2EDC8E00AD86C7 /* yoda.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoda.caf; sourceTree = "<group>"; };
+		92C0C6891E2EDC8E00AD86C7 /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +129,7 @@
 		92C0C65E1E2EAB8000AD86C7 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				92C0C6681E2EDC3300AD86C7 /* Resources */,
 				92C0C6611E2EABCD00AD86C7 /* Models */,
 				92C0C64C1E2EA9E800AD86C7 /* AppDelegate.swift */,
 				92C0C64E1E2EA9E800AD86C7 /* ViewController.swift */,
@@ -95,6 +156,51 @@
 				92C0C6661E2EC91200AD86C7 /* StarWarsAffiliation.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		92C0C6681E2EDC3300AD86C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92C0C66E1E2EDC8E00AD86C7 /* c3po.caf */,
+				92C0C66F1E2EDC8E00AD86C7 /* c3po.jpg */,
+				92C0C6701E2EDC8E00AD86C7 /* chewie.caf */,
+				92C0C6711E2EDC8E00AD86C7 /* chewie.jpg */,
+				92C0C6721E2EDC8E00AD86C7 /* greedo.caf */,
+				92C0C6731E2EDC8E00AD86C7 /* greedo.jpg */,
+				92C0C6741E2EDC8E00AD86C7 /* jabba.caf */,
+				92C0C6751E2EDC8E00AD86C7 /* jabba.jpg */,
+				92C0C6761E2EDC8E00AD86C7 /* kylo.caf */,
+				92C0C6771E2EDC8E00AD86C7 /* kylo.jpg */,
+				92C0C6781E2EDC8E00AD86C7 /* leia.caf */,
+				92C0C6791E2EDC8E00AD86C7 /* leia.jpg */,
+				92C0C67A1E2EDC8E00AD86C7 /* luke.caf */,
+				92C0C67B1E2EDC8E00AD86C7 /* luke.jpg */,
+				92C0C67C1E2EDC8E00AD86C7 /* motti.caf */,
+				92C0C67D1E2EDC8E00AD86C7 /* motti.jpg */,
+				92C0C67E1E2EDC8E00AD86C7 /* obiwan.caf */,
+				92C0C67F1E2EDC8E00AD86C7 /* obiwan.jpg */,
+				92C0C6801E2EDC8E00AD86C7 /* palpatine.caf */,
+				92C0C6811E2EDC8E00AD86C7 /* palpatine.jpg */,
+				92C0C6821E2EDC8E00AD86C7 /* r2-d2.caf */,
+				92C0C6831E2EDC8E00AD86C7 /* r2-d2.jpg */,
+				92C0C6841E2EDC8E00AD86C7 /* tarkin.caf */,
+				92C0C6851E2EDC8E00AD86C7 /* tarkin.jpg */,
+				92C0C6861E2EDC8E00AD86C7 /* vader.caf */,
+				92C0C6871E2EDC8E00AD86C7 /* vader.jpg */,
+				92C0C6881E2EDC8E00AD86C7 /* yoda.caf */,
+				92C0C6891E2EDC8E00AD86C7 /* yoda.jpg */,
+				92C0C6691E2EDC4000AD86C7 /* JSON */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		92C0C6691E2EDC4000AD86C7 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				92C0C66C1E2EDC7B00AD86C7 /* regularCharacters.json */,
+				92C0C66A1E2EDC6F00AD86C7 /* forceSensitives.json */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +262,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C0C6A31E2EDC8E00AD86C7 /* vader.jpg in Resources */,
+				92C0C6A51E2EDC8E00AD86C7 /* yoda.jpg in Resources */,
+				92C0C68E1E2EDC8E00AD86C7 /* greedo.caf in Resources */,
+				92C0C69D1E2EDC8E00AD86C7 /* palpatine.jpg in Resources */,
+				92C0C6931E2EDC8E00AD86C7 /* kylo.jpg in Resources */,
+				92C0C6A01E2EDC8E00AD86C7 /* tarkin.caf in Resources */,
+				92C0C66B1E2EDC6F00AD86C7 /* forceSensitives.json in Resources */,
 				92C0C6571E2EA9E800AD86C7 /* LaunchScreen.storyboard in Resources */,
+				92C0C68B1E2EDC8E00AD86C7 /* c3po.jpg in Resources */,
+				92C0C6A11E2EDC8E00AD86C7 /* tarkin.jpg in Resources */,
+				92C0C6911E2EDC8E00AD86C7 /* jabba.jpg in Resources */,
+				92C0C69A1E2EDC8E00AD86C7 /* obiwan.caf in Resources */,
+				92C0C69E1E2EDC8E00AD86C7 /* r2-d2.caf in Resources */,
+				92C0C6981E2EDC8E00AD86C7 /* motti.caf in Resources */,
+				92C0C6A41E2EDC8E00AD86C7 /* yoda.caf in Resources */,
 				92C0C6541E2EA9E800AD86C7 /* Assets.xcassets in Resources */,
+				92C0C6971E2EDC8E00AD86C7 /* luke.jpg in Resources */,
+				92C0C68A1E2EDC8E00AD86C7 /* c3po.caf in Resources */,
+				92C0C69C1E2EDC8E00AD86C7 /* palpatine.caf in Resources */,
+				92C0C6921E2EDC8E00AD86C7 /* kylo.caf in Resources */,
+				92C0C6961E2EDC8E00AD86C7 /* luke.caf in Resources */,
 				92C0C6521E2EA9E800AD86C7 /* Main.storyboard in Resources */,
+				92C0C66D1E2EDC7B00AD86C7 /* regularCharacters.json in Resources */,
+				92C0C6941E2EDC8E00AD86C7 /* leia.caf in Resources */,
+				92C0C6951E2EDC8E00AD86C7 /* leia.jpg in Resources */,
+				92C0C68D1E2EDC8E00AD86C7 /* chewie.jpg in Resources */,
+				92C0C6991E2EDC8E00AD86C7 /* motti.jpg in Resources */,
+				92C0C6901E2EDC8E00AD86C7 /* jabba.caf in Resources */,
+				92C0C6A21E2EDC8E00AD86C7 /* vader.caf in Resources */,
+				92C0C68C1E2EDC8E00AD86C7 /* chewie.caf in Resources */,
+				92C0C69B1E2EDC8E00AD86C7 /* obiwan.jpg in Resources */,
+				92C0C68F1E2EDC8E00AD86C7 /* greedo.jpg in Resources */,
+				92C0C69F1E2EDC8E00AD86C7 /* r2-d2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
