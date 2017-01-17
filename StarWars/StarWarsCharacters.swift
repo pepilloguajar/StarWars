@@ -74,10 +74,14 @@ class StarWarsCharacter {
         return "\(firstName)\(lastName)\(alias)\(url)\(affiliation)\(photo.hashValue)\(soundData.hashValue)"
     }
     
+    func proxyForComparison() -> String {
+        return proxyForEquality()
+    }
+    
     
 }
 
-
+//MARK: - Protocols
 
 extension StarWarsCharacter : Equatable{
     
@@ -91,6 +95,13 @@ extension StarWarsCharacter : Equatable{
 }
 
 
+extension StarWarsCharacter : Comparable{
+    
+    public static func <(lhs: StarWarsCharacter, rhs: StarWarsCharacter) -> Bool{
+        return (lhs.proxyForComparison() < rhs.proxyForComparison())
+    }
+    
+}
 
 
 
