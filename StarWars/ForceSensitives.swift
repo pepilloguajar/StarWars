@@ -59,8 +59,17 @@ class ForceSensitive: StarWarsCharacter {
     }
     
     
-    
-    
+    //MARK: - Proxies
+    override func proxyForEquality() -> String {
+        return "\(super.proxyForEquality())\(midichlorians)"
+    }
     
     
 }
+
+
+
+
+
+
+
