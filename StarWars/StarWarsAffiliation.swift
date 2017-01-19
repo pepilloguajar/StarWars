@@ -16,4 +16,38 @@ enum StarWarsAffiliation : String{
     case jabbaCriminalEmpire = "Jabba's Crimial Empire"
     case unknow = "Unknown"
     
+    static func by(name: String) -> StarWarsAffiliation{
+        
+        let aff : StarWarsAffiliation
+        switch name {
+        case StarWarsAffiliation.galacticEmpire.rawValue:
+            aff = .galacticEmpire
+            
+        case StarWarsAffiliation.rebelAlliance.rawValue:
+            aff = .rebelAlliance
+            
+        case StarWarsAffiliation.firstOrder.rawValue:
+            aff = .firstOrder
+            
+        case StarWarsAffiliation.jabbaCriminalEmpire.rawValue:
+            aff = .jabbaCriminalEmpire
+        default:
+            aff = .unknow
+        }
+        
+        return aff
+        
+    }
+    
+    
+    static func by(name: String?) -> StarWarsAffiliation{
+        
+        guard let realName = name else{
+           return .unknow
+        }
+        
+        return self.by(name: realName)
+        
+    }
+    
 }

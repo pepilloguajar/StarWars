@@ -45,6 +45,9 @@
 		92C0C6A31E2EDC8E00AD86C7 /* vader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6871E2EDC8E00AD86C7 /* vader.jpg */; };
 		92C0C6A41E2EDC8E00AD86C7 /* yoda.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6881E2EDC8E00AD86C7 /* yoda.caf */; };
 		92C0C6A51E2EDC8E00AD86C7 /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6891E2EDC8E00AD86C7 /* yoda.jpg */; };
+		92C0C6A71E314E4700AD86C7 /* JSONProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6A61E314E4700AD86C7 /* JSONProcessing.swift */; };
+		92C0C6A91E3158F300AD86C7 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6A81E3158F300AD86C7 /* Errors.swift */; };
+		92C0C6AB1E315CC700AD86C7 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6AA1E315CC700AD86C7 /* FoundationExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +91,9 @@
 		92C0C6871E2EDC8E00AD86C7 /* vader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vader.jpg; sourceTree = "<group>"; };
 		92C0C6881E2EDC8E00AD86C7 /* yoda.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoda.caf; sourceTree = "<group>"; };
 		92C0C6891E2EDC8E00AD86C7 /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
+		92C0C6A61E314E4700AD86C7 /* JSONProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONProcessing.swift; sourceTree = "<group>"; };
+		92C0C6A81E3158F300AD86C7 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		92C0C6AA1E315CC700AD86C7 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,7 @@
 		92C0C65F1E2EAB8C00AD86C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92C0C6AA1E315CC700AD86C7 /* FoundationExtensions.swift */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,6 +161,8 @@
 				92C0C6621E2EB15900AD86C7 /* StarWarsCharacters.swift */,
 				92C0C6641E2EC54200AD86C7 /* ForceSensitives.swift */,
 				92C0C6661E2EC91200AD86C7 /* StarWarsAffiliation.swift */,
+				92C0C6A61E314E4700AD86C7 /* JSONProcessing.swift */,
+				92C0C6A81E3158F300AD86C7 /* Errors.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -305,11 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C0C6A71E314E4700AD86C7 /* JSONProcessing.swift in Sources */,
 				92C0C6651E2EC54200AD86C7 /* ForceSensitives.swift in Sources */,
 				92C0C6671E2EC91200AD86C7 /* StarWarsAffiliation.swift in Sources */,
 				92C0C64F1E2EA9E800AD86C7 /* ViewController.swift in Sources */,
+				92C0C6AB1E315CC700AD86C7 /* FoundationExtensions.swift in Sources */,
 				92C0C64D1E2EA9E800AD86C7 /* AppDelegate.swift in Sources */,
 				92C0C6631E2EB15900AD86C7 /* StarWarsCharacters.swift in Sources */,
+				92C0C6A91E3158F300AD86C7 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
