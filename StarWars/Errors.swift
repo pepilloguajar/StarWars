@@ -13,5 +13,6 @@ enum StarWarsError : Error{
     case resourcePointdBYURLNotReachable
     case wrongJSONFormat
     case nilJSONObject
+    case jsonParsingError
     
 }
