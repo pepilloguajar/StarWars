@@ -13,16 +13,55 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    func deberes() {
-        
-        //Crear un par de personajes y compararlos
-        
-        
-    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        // Crear una Window de verdad
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        // Crear una instancia del modelo -- lanza errores por lo que tenemos que poner un do-catch
+        do{
+            // Array de diccionares de JSON
+            var json = try loadFromLocalFile(fileName: "regularCharacters.json")
+            let force = try loadFromLocalFile(fileName: "forceSensitives.json")
+            json.append(contentsOf: force)
+            
+            // Crear un array de clases de Swift
+            var chars = [StarWarsCharacter]()
+            for dict in json{
+                do{
+                    let char = try decode(starWarsCharacter: dict)
+                    chars.append(char)
+                }catch{
+                    print("Error al procesar \(dict)")
+                }
+                
+            }
+            
+            // Podemos crar el modelo
+            let model = StarWarsUniverse(characters: chars)
+            
+            // Creamos el UniverseVC
+            let uVC = UniverseTableViewController(model: model)
+            
+            // Lo metemos en un Nav
+            let uNav = UINavigationController(rootViewController: uVC)
+            
+            // Le decimos a la window quien es su root view controller
+            window?.rootViewController = uNav
+            
+            // Mostramos la window
+            window?.makeKeyAndVisible()
+            
+            return true
+        }catch{
+            fatalError("Error while loading Model from JSON")
+        }
+        
+        
+
+        
         return true
     }
 
