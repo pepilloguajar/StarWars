@@ -48,6 +48,7 @@
 		92C0C6A71E314E4700AD86C7 /* JSONProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6A61E314E4700AD86C7 /* JSONProcessing.swift */; };
 		92C0C6A91E3158F300AD86C7 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6A81E3158F300AD86C7 /* Errors.swift */; };
 		92C0C6AB1E315CC700AD86C7 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6AA1E315CC700AD86C7 /* FoundationExtensions.swift */; };
+		92C0C6F11E369AF700AD86C7 /* StarWarsUniverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6F01E369AF700AD86C7 /* StarWarsUniverse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		92C0C6A61E314E4700AD86C7 /* JSONProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONProcessing.swift; sourceTree = "<group>"; };
 		92C0C6A81E3158F300AD86C7 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		92C0C6AA1E315CC700AD86C7 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		92C0C6F01E369AF700AD86C7 /* StarWarsUniverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsUniverse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				92C0C6661E2EC91200AD86C7 /* StarWarsAffiliation.swift */,
 				92C0C6A61E314E4700AD86C7 /* JSONProcessing.swift */,
 				92C0C6A81E3158F300AD86C7 /* Errors.swift */,
+				92C0C6F01E369AF700AD86C7 /* StarWarsUniverse.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				92C0C6AB1E315CC700AD86C7 /* FoundationExtensions.swift in Sources */,
 				92C0C64D1E2EA9E800AD86C7 /* AppDelegate.swift in Sources */,
 				92C0C6631E2EB15900AD86C7 /* StarWarsCharacters.swift in Sources */,
+				92C0C6F11E369AF700AD86C7 /* StarWarsUniverse.swift in Sources */,
 				92C0C6A91E3158F300AD86C7 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
