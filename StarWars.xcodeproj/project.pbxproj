@@ -49,6 +49,8 @@
 		92C0C6A91E3158F300AD86C7 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6A81E3158F300AD86C7 /* Errors.swift */; };
 		92C0C6AB1E315CC700AD86C7 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6AA1E315CC700AD86C7 /* FoundationExtensions.swift */; };
 		92C0C6F11E369AF700AD86C7 /* StarWarsUniverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6F01E369AF700AD86C7 /* StarWarsUniverse.swift */; };
+		92C0C6F51E36B37900AD86C7 /* UniverseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6F31E36B37900AD86C7 /* UniverseTableViewController.swift */; };
+		92C0C6F61E36B37900AD86C7 /* UniverseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6F41E36B37900AD86C7 /* UniverseTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +98,8 @@
 		92C0C6A81E3158F300AD86C7 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		92C0C6AA1E315CC700AD86C7 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
 		92C0C6F01E369AF700AD86C7 /* StarWarsUniverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsUniverse.swift; sourceTree = "<group>"; };
+		92C0C6F31E36B37900AD86C7 /* UniverseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniverseTableViewController.swift; sourceTree = "<group>"; };
+		92C0C6F41E36B37900AD86C7 /* UniverseTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniverseTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 		92C0C65E1E2EAB8000AD86C7 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				92C0C6F21E36B30E00AD86C7 /* Controllers */,
 				92C0C6681E2EDC3300AD86C7 /* Resources */,
 				92C0C6611E2EABCD00AD86C7 /* Models */,
 				92C0C64C1E2EA9E800AD86C7 /* AppDelegate.swift */,
@@ -215,6 +220,15 @@
 			name = JSON;
 			sourceTree = "<group>";
 		};
+		92C0C6F21E36B30E00AD86C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				92C0C6F31E36B37900AD86C7 /* UniverseTableViewController.swift */,
+				92C0C6F41E36B37900AD86C7 /* UniverseTableViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -288,6 +302,7 @@
 				92C0C69A1E2EDC8E00AD86C7 /* obiwan.caf in Resources */,
 				92C0C69E1E2EDC8E00AD86C7 /* r2-d2.caf in Resources */,
 				92C0C6981E2EDC8E00AD86C7 /* motti.caf in Resources */,
+				92C0C6F61E36B37900AD86C7 /* UniverseTableViewController.xib in Resources */,
 				92C0C6A41E2EDC8E00AD86C7 /* yoda.caf in Resources */,
 				92C0C6541E2EA9E800AD86C7 /* Assets.xcassets in Resources */,
 				92C0C6971E2EDC8E00AD86C7 /* luke.jpg in Resources */,
@@ -325,6 +340,7 @@
 				92C0C64D1E2EA9E800AD86C7 /* AppDelegate.swift in Sources */,
 				92C0C6631E2EB15900AD86C7 /* StarWarsCharacters.swift in Sources */,
 				92C0C6F11E369AF700AD86C7 /* StarWarsUniverse.swift in Sources */,
+				92C0C6F51E36B37900AD86C7 /* UniverseTableViewController.swift in Sources */,
 				92C0C6A91E3158F300AD86C7 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
