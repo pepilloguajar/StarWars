@@ -10,8 +10,12 @@ import UIKit
 
 class CharacterViewController: UIViewController {
 
+    //MARK: - Properties
+    @IBOutlet weak var photoView: UIImageView!
     let model : StarWarsCharacter
     
+    
+    //MARK: - Inicializadores
     init(model: StarWarsCharacter){
         
         self.model = model
@@ -24,6 +28,27 @@ class CharacterViewController: UIViewController {
     }
     
     
+    //MARK: - View Lifecycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        syncViewWithModel()
+    }
+    
+    
+    //MARK: - Sync model -> View
+    func syncViewWithModel(){
+        photoView.image = model.photo
+        title = model.alias ?? model.name
+    }
+    
+    
+    
+    //MARK: - Actions
+    @IBAction func playSound(_ sender: UIBarButtonItem) {
+    }
+    
+    @IBAction func displayWikipedia(_ sender: UIBarButtonItem) {
+    }
     
    
 }
