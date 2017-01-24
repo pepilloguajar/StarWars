@@ -17,7 +17,7 @@ class ForceSensitive: StarWarsCharacter {
     
     //MARK: Inicializador
     init(firstName: String?, lastName: String?,
-         alias: String, sound: Data,
+         alias: String?, sound: Data,
          photo: UIImage, wikiURL: URL,
          affiliation: StarWarsAffiliation, midichlorians: Int) {
         
@@ -30,7 +30,7 @@ class ForceSensitive: StarWarsCharacter {
     
     convenience init(jediWithFirstName: String?,
                      lastName: String?,
-                     alias: String,
+                     alias: String?,
                      soundData: Data,
                      photo: UIImage,
                      url: URL,
@@ -45,7 +45,7 @@ class ForceSensitive: StarWarsCharacter {
     
     convenience init(sithWithFirstName: String?,
                      lastName: String?,
-                     alias: String,
+                     alias: String?,
                      soundData: Data,
                      photo: UIImage,
                      url: URL,

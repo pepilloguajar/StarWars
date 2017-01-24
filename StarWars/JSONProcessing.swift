@@ -52,9 +52,11 @@ func decode(starWarsCharacter json: JSONDictionary) throws -> StarWarsCharacter{
     
     let firstName = json["firstName"] as? String
     let lastName = json["lastName"] as? String
-    guard let alias =  json["alias"] as? String else {
-        throw StarWarsError.wrongJSONFormat
-    }
+//    guard let alias =  json["alias"] as? String else {
+//        throw StarWarsError.wrongJSONFormat
+//    }
+    //lo modifico para que sea opcional
+    let alias =  json["alias"] as? String
     
     // Solo queda affiliation
     
@@ -101,9 +103,10 @@ func decode(forceSensitive json: JSONDictionary) throws -> ForceSensitive{
     
     let firstName = json["firstName"] as? String
     let lastName = json["lastName"] as? String
-    guard let alias =  json["alias"] as? String else {
-        throw StarWarsError.wrongJSONFormat
-    }
+//    guard let alias =  json["alias"] as? String else {
+//        throw StarWarsError.wrongJSONFormat
+//    }
+    let alias = json["alias"] as? String
     
     
     guard let jedi = json["jedi"] as? Bool, let sith = json["sith"] as? Bool, let md = json["midichlorians"] as? Int else {
