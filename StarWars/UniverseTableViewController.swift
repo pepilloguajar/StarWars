@@ -13,6 +13,8 @@ class UniverseTableViewController: UITableViewController {
     //MARK: - Properties
     let model : StarWarsUniverse
     
+    weak var delegate : UniverseTableViewControllerDelegate? = nil
+    
     
     //MARK: - Inicializador
     init(model : StarWarsUniverse){
@@ -26,6 +28,31 @@ class UniverseTableViewController: UITableViewController {
     
     
     
+    //MARK: - Table view Delegate
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        // Descubrir la afiliacion
+        let aff = getAffiliation(forSection: indexPath.section)
+        
+        //Descubir de que personaje me hablas
+        let character : StarWarsCharacter = model.character(atIndex: indexPath.row, forAffiliation: aff)
+        
+        //Crear un CharacterVC
+//        let charVC = CharacterViewController(model: character)
+        
+        //Pushearlo
+//        self.navigationController?.pushViewController(charVC, animated: true)
+        
+        
+        // Avisar al delegado
+        delegate?.universeTableViewController(self, didSelectCharacter: character)
+        
+    }
+    
+    
+    
+    
+
 
     // MARK: - Table view data source
 
@@ -97,12 +124,32 @@ class UniverseTableViewController: UITableViewController {
     }
     
     
+
+}
+
+
+//MARK: - Protocolo de delegado para splitVC
+
+protocol UniverseTableViewControllerDelegate : class {
+    
+    // Metodos should (piden permiso)
     
     
+    // Métodos will (lo voy a hacer)
     
     
-    
-    
+    // Métodos did (ya lo he hecho, que lo sepas)
+    func universeTableViewController(_ uVC: UniverseTableViewController, didSelectCharacter char: StarWarsCharacter)
     
 
-  }
+}
+
+
+
+
+
+
+
+
+
+

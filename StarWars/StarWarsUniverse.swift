@@ -35,6 +35,19 @@ class StarWarsUniverse {
             dict[char.affiliation]?.append(char)
         }
         
+        
+        
+        // Ordenamos los personajes dentro de cada afiliación alfabéticamente
+        
+        for(affiliation, chars) in dict{
+            dict[affiliation] = chars.sorted()
+        }
+        // Esto es lo equivalente
+//        dict[.galacticEmpire] = dict[.galacticEmpire]?.sorted()
+//        dict[.rebelAlliance] = dict[.rebelAlliance]?.sorted()
+//        dict[.firstOrder] = dict[.firstOrder]?.sorted()
+//        dict[.jabbaCriminalEmpire] = dict[.jabbaCriminalEmpire]?.sorted()
+        
     }
     
     

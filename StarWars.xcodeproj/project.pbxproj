@@ -53,6 +53,8 @@
 		92C0C6F61E36B37900AD86C7 /* UniverseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6F41E36B37900AD86C7 /* UniverseTableViewController.xib */; };
 		92C0C6F91E37E80900AD86C7 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6F71E37E80900AD86C7 /* CharacterViewController.swift */; };
 		92C0C6FA1E37E80900AD86C7 /* CharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6F81E37E80900AD86C7 /* CharacterViewController.xib */; };
+		92C0C6FD1E38079500AD86C7 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0C6FB1E38079500AD86C7 /* WikiViewController.swift */; };
+		92C0C6FE1E38079500AD86C7 /* WikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C0C6FC1E38079500AD86C7 /* WikiViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +106,8 @@
 		92C0C6F41E36B37900AD86C7 /* UniverseTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniverseTableViewController.xib; sourceTree = "<group>"; };
 		92C0C6F71E37E80900AD86C7 /* CharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		92C0C6F81E37E80900AD86C7 /* CharacterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterViewController.xib; sourceTree = "<group>"; };
+		92C0C6FB1E38079500AD86C7 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
+		92C0C6FC1E38079500AD86C7 /* WikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikiViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +235,8 @@
 				92C0C6F41E36B37900AD86C7 /* UniverseTableViewController.xib */,
 				92C0C6F71E37E80900AD86C7 /* CharacterViewController.swift */,
 				92C0C6F81E37E80900AD86C7 /* CharacterViewController.xib */,
+				92C0C6FB1E38079500AD86C7 /* WikiViewController.swift */,
+				92C0C6FC1E38079500AD86C7 /* WikiViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -316,6 +322,7 @@
 				92C0C69C1E2EDC8E00AD86C7 /* palpatine.caf in Resources */,
 				92C0C6921E2EDC8E00AD86C7 /* kylo.caf in Resources */,
 				92C0C6961E2EDC8E00AD86C7 /* luke.caf in Resources */,
+				92C0C6FE1E38079500AD86C7 /* WikiViewController.xib in Resources */,
 				92C0C6521E2EA9E800AD86C7 /* Main.storyboard in Resources */,
 				92C0C6FA1E37E80900AD86C7 /* CharacterViewController.xib in Resources */,
 				92C0C66D1E2EDC7B00AD86C7 /* regularCharacters.json in Resources */,
@@ -349,6 +356,7 @@
 				92C0C6631E2EB15900AD86C7 /* StarWarsCharacters.swift in Sources */,
 				92C0C6F11E369AF700AD86C7 /* StarWarsUniverse.swift in Sources */,
 				92C0C6F51E36B37900AD86C7 /* UniverseTableViewController.swift in Sources */,
+				92C0C6FD1E38079500AD86C7 /* WikiViewController.swift in Sources */,
 				92C0C6A91E3158F300AD86C7 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jjm.StarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -487,6 +496,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jjm.StarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -509,6 +519,7 @@
 				92C0C65D1E2EA9E800AD86C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -48,8 +48,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // Lo metemos en un Nav
             let uNav = UINavigationController(rootViewController: uVC)
             
+            
+            // Creamos un charVC
+            let charVC = CharacterViewController(model: model.character(atIndex: 0, forAffiliation: .galacticEmpire))
+            
+            // Lo metemos dentro de un Nav
+            let cNav = UINavigationController(rootViewController: charVC)
+            
+            
+            //Asignamos delegados
+            uVC.delegate = charVC
+            
+            // Creamos el SplitVC
+            
+            let splitVC = UISplitViewController()
+            splitVC.viewControllers = [uNav,cNav]
+            
+            
+            
             // Le decimos a la window quien es su root view controller
-            window?.rootViewController = uNav
+            window?.rootViewController = splitVC
             
             // Mostramos la window
             window?.makeKeyAndVisible()

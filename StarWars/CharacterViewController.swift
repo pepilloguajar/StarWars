@@ -12,7 +12,7 @@ class CharacterViewController: UIViewController {
 
     //MARK: - Properties
     @IBOutlet weak var photoView: UIImageView!
-    let model : StarWarsCharacter
+    var model : StarWarsCharacter
     
     
     //MARK: - Inicializadores
@@ -32,6 +32,7 @@ class CharacterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         syncViewWithModel()
+        edgesForExtendedLayout = []
     }
     
     
@@ -48,7 +49,38 @@ class CharacterViewController: UIViewController {
     }
     
     @IBAction func displayWikipedia(_ sender: UIBarButtonItem) {
+        
+        print("llega")
+        // Crear un WikiVC
+        let wikiVC = WikiViewController(model: model)
+        //Hacer un push
+        navigationController?.pushViewController(wikiVC, animated: true)
+        
     }
     
-   
 }
+
+
+
+//MARK: - Protocolos
+extension CharacterViewController : UniverseTableViewControllerDelegate{
+    
+    func universeTableViewController(_ uVC: UniverseTableViewController, didSelectCharacter char: StarWarsCharacter) {
+        
+        // Cambiamos el modelo
+        model = char
+        syncViewWithModel()
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
