@@ -10,6 +10,11 @@ import UIKit
 
 class UniverseTableViewController: UITableViewController {
     
+    //MARK: - Constants
+    static let notificationName  = Notification.Name(rawValue: "CharacterDidChange")
+    static let characterKey = "characerKey"
+    
+    
     //MARK: - Properties
     let model : StarWarsUniverse
     
@@ -46,6 +51,9 @@ class UniverseTableViewController: UITableViewController {
         
         // Avisar al delegado
         delegate?.universeTableViewController(self, didSelectCharacter: character)
+        
+        // mandamos una notificación
+        notify(characterChanged: character)
         
     }
     
@@ -144,6 +152,22 @@ protocol UniverseTableViewControllerDelegate : class {
 
 }
 
+
+
+//MARK: - Notifications
+extension UniverseTableViewController{
+    
+    func notify(characterChanged char: StarWarsCharacter){
+        
+        // "Creas" una instancia del NotificationCenter
+        let nc = NotificationCenter.default
+        //Creas un objeto notification y configuras
+        let notification = Notification(name: UniverseTableViewController.notificationName, object: self, userInfo: [UniverseTableViewController.characterKey: char])
+        // lo mandas
+        nc.post(notification)
+        
+    }
+}
 
 
 
